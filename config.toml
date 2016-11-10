@@ -1,0 +1,78 @@
+## Basic Configuration
+
+baseurl = "http://3manuek.github.io/" #Example "https://<you>.github.io/"  
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Emanuel Calvo"
+title = "Emanuel's Hub"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "3manuek" # Comment out to disable Disqus.
+googleAnalytics = 'UA-79505389-1'
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Emanuel Calvo"
+intro = "Open Source Data Specialist"
+description = "Currently @Percona and root @ayresData"
+authorImage = "headshot.png"
+dateFormat = "Mar 23, 1981"
+
+## Site Meta Settings
+[params.meta]
+description = "Emanuel's Hub of post and other stuff."
+keywords = "postgres,mysql,mariadb,elasticsearch,rethinkdb,redshift,amazon,aws"
+
+## Social Accounts
+[params.social]
+github = "3manuek"
+email = "3manuek@gmail.com"
+twitter = "3manuek"
+linkedIn = "ecbcbcb"
+
+#facebook = "<username>"
+#google = "<username>"
+#instagram = "<username>"
+
+
+## Extras
+[params.extra]
+#copyright = "© Emanuel Calvo [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredBy = true
+hightlightJS = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
+[[menu.main]]
+    name = "resume"
+    identifier = "resume"
+    weight = 300
+    url = "/resume/"
+[[menu.main]]
+    name = "policies"
+    identifier = "policies"
+    weight = 300
+    url = "/policies/"
